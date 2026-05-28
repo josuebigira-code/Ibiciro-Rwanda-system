@@ -1,0 +1,168 @@
+/* GENERAL STYLE */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#f4f7f4;
+  background-attachment: scroll;
+  background-position: 0%;
+  color:#0c0c0cb0;
+  line-height:1.6;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:#1a7a3c;
+  color:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:bold;
+}
+
+.nav-links a:hover{
+  color:#d4ffd4;
+}
+
+/* MAIN CONTENT */
+
+.container{
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+  padding:30px 0;
+}
+
+h1{
+  color:#1a7a3c;
+  margin-bottom:15px;
+}
+
+h2{
+  color:#1a7a3c;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+
+.info-box{
+  background:#eaf7ee;
+  border-left:5px solid #1a7a3c;
+  padding:15px;
+  margin:20px 0;
+}
+
+/* TABLE */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+table th{
+  background:#1a7a3c;
+  color:white;
+  padding:12px;
+  text-align:left;
+}
+
+table td{
+  border:1px solid #ddd;
+  padding:10px;
+}
+
+tr:nth-child(even){
+  background:#f9f9f9;
+}
+
+/* MARKET CARDS */
+
+.market-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.market-card{
+  background:white;
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:8px;
+}
+
+/* FORMS */
+
+form{
+  background:white;
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:8px;
+}
+
+label{
+  display:block;
+  margin-top:15px;
+  font-weight:bold;
+}
+
+input,
+textarea{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border:1px solid #bbb;
+  border-radius:5px;
+}
+
+.btn{
+  background:#1a7a3c;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  margin-top:20px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.btn:hover{
+  background:#145e2e;
+}
+
+/* FAQ */
+
+.faq-item{
+  background:white;
+  border:1px solid #ddd;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:5px;
+}
+
+/* FOOTER */
+
+footer{
+  background:#1a7a3c;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
